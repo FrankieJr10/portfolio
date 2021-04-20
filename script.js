@@ -1,6 +1,6 @@
 //Geting a value from local storage
 let theme = localStorage.getItem('theme');
-if (theme = null){
+if (theme == null){
     setTheme('light')
 }
 else{
